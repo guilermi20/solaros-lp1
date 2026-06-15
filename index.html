@@ -3,21 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arena Energia Solar — Economize até 85% na conta de luz | Rio Preto, Ibitinga, Barretos</title>
+<title>SolarOS — Economize até 85% na conta de luz | Rio Preto, Ibitinga, Barretos</title>
 <meta name="description" content="Energia solar residencial e comercial no interior de SP. Pare de financiar a distribuidora e economize até 85% na conta de luz. Atendimento próximo em São José do Rio Preto, Ibitinga e Barretos.">
-<meta name="theme-color" content="#101240">
+<meta name="theme-color" content="#0b1030">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --indigo:#0d0f3d;
-    --indigo-2:#13164e;
-    --indigo-3:#2a2e9c;
-    --gold:#F5A623;
-    --gold-2:#ffce6b;
-    --royal:#2547f0;
-    --royal-2:#4c6bff;
+    --indigo:#0b1030;
+    --indigo-2:#101a4e;
+    --indigo-3:#1e3a8a;
+    --gold:#F97316;
+    --gold-2:#FDBA74;
+    --gold-3:#EA580C;
+    --royal:#2563EB;
+    --royal-2:#1D4ED8;
     --ink:#080a26;
     --white:#ffffff;
     --mist:#f3f5fc;
@@ -28,7 +29,7 @@
     --line-2:#e7e9f5;
     --shadow:0 24px 60px rgba(13,15,61,.22);
     --shadow-sm:0 10px 28px rgba(13,15,61,.10);
-    --glow-gold:0 0 0 1px rgba(245,166,35,.4), 0 14px 40px rgba(245,166,35,.35);
+    --glow-gold:0 0 0 1px rgba(249,115,22,.4), 0 14px 40px rgba(249,115,22,.35);
     --radius:18px;
     --radius-lg:26px;
   }
@@ -57,11 +58,11 @@
     font-family:'Poppins',sans-serif;line-height:1;position:relative;
   }
   .btn svg{width:18px;height:18px}
-  .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-2));color:#3a2600;box-shadow:0 14px 32px rgba(245,166,35,.42)}
-  .btn-gold:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(245,166,35,.55)}
+  .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-3));color:#fff;box-shadow:0 14px 32px rgba(249,115,22,.42)}
+  .btn-gold:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(249,115,22,.55)}
   .btn-ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid var(--line)}
   .btn-ghost:hover{background:rgba(255,255,255,.18)}
-  .btn-royal{background:var(--royal);color:#fff;box-shadow:0 12px 30px rgba(37,71,240,.4)}
+  .btn-royal{background:var(--royal);color:#fff;box-shadow:0 12px 30px rgba(37,99,235,.4)}
   .btn-royal:hover{transform:translateY(-2px);background:var(--royal-2)}
   .btn-block{width:100%}
   /* shine sweep on gold buttons */
@@ -83,11 +84,11 @@
   .brand{display:flex;align-items:center;gap:11px;color:#fff}
   .brand .logo{
     width:44px;height:44px;border-radius:13px;
-    background:linear-gradient(135deg,var(--gold),var(--gold-2));
-    display:flex;align-items:center;justify-content:center;color:#3a2600;
-    box-shadow:0 8px 18px rgba(245,166,35,.45);
+    background:linear-gradient(135deg,var(--gold),var(--gold-3));
+    display:flex;align-items:center;justify-content:center;color:#fff;
+    box-shadow:0 8px 18px rgba(249,115,22,.45);
   }
-  .brand .logo svg{width:24px;height:24px;stroke:#3a2600;fill:none;stroke-width:2}
+  .brand .logo svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2}
   .brand b{font-size:1.08rem;font-weight:700;letter-spacing:.3px}
   .brand small{display:block;font-size:.66rem;color:var(--gold);font-family:'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase}
   .nav-links{display:flex;align-items:center;gap:26px}
@@ -104,26 +105,26 @@
   /* ---------- HERO ---------- */
   .hero{
     background:
-      radial-gradient(1200px 640px at 82% -12%, rgba(37,71,240,.5), transparent 60%),
-      radial-gradient(900px 520px at -5% 115%, rgba(245,166,35,.2), transparent 55%),
+      radial-gradient(1200px 640px at 82% -12%, rgba(37,99,235,.5), transparent 60%),
+      radial-gradient(900px 520px at -5% 115%, rgba(249,115,22,.2), transparent 55%),
       linear-gradient(160deg,var(--indigo) 0%,var(--indigo-2) 55%,#08092c 100%);
     color:#fff;padding:78px 0 96px;overflow:hidden;
   }
   /* animated sun glow */
   .hero .sun{
     position:absolute;top:-140px;right:-120px;width:460px;height:460px;border-radius:50%;
-    background:radial-gradient(circle,rgba(245,166,35,.5),rgba(245,166,35,0) 65%);
+    background:radial-gradient(circle,rgba(249,115,22,.5),rgba(249,115,22,0) 65%);
     filter:blur(8px);animation:breathe 6s ease-in-out infinite;pointer-events:none;
   }
   @keyframes breathe{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.12);opacity:1}}
   .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;position:relative;z-index:2}
   .badge{
     display:inline-flex;align-items:center;gap:9px;
-    background:rgba(245,166,35,.14);border:1px solid rgba(245,166,35,.42);
+    background:rgba(249,115,22,.14);border:1px solid rgba(249,115,22,.42);
     color:var(--gold);padding:8px 16px;border-radius:999px;
     font-family:'JetBrains Mono',monospace;font-size:.74rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:22px;
   }
-  .badge .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(245,166,35,.25);animation:blink 1.6s ease-in-out infinite}
+  .badge .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(249,115,22,.25);animation:blink 1.6s ease-in-out infinite}
   @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
   .hero h1{font-size:3.15rem;line-height:1.07;font-weight:800;letter-spacing:-1px;margin-bottom:20px}
   .hero h1 .hl{background:linear-gradient(120deg,var(--gold),var(--gold-2));-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -148,10 +149,10 @@
     border:1px solid var(--line);border-radius:var(--radius-lg);
     padding:30px;box-shadow:var(--shadow);backdrop-filter:blur(8px);position:relative;
   }
-  .hero-card::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(160deg,rgba(245,166,35,.5),transparent 40%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+  .hero-card::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(160deg,rgba(249,115,22,.5),transparent 40%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
   .hero-card .hc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
   .hero-card .hc-top b{font-size:1rem}
-  .hero-card .hc-top .tag{font-family:'JetBrains Mono',monospace;font-size:.66rem;color:var(--gold);text-transform:uppercase;letter-spacing:1px;border:1px solid rgba(245,166,35,.4);padding:4px 9px;border-radius:999px}
+  .hero-card .hc-top .tag{font-family:'JetBrains Mono',monospace;font-size:.66rem;color:var(--gold);text-transform:uppercase;letter-spacing:1px;border:1px solid rgba(249,115,22,.4);padding:4px 9px;border-radius:999px}
   .sim-row{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px dashed var(--line)}
   .sim-row:last-of-type{border-bottom:none}
   .sim-row .lbl{color:#bfc2e6;font-size:.92rem}
@@ -202,11 +203,11 @@
     margin-bottom:18px;background:linear-gradient(135deg,var(--indigo),var(--indigo-3));color:#fff;
   }
   .svc .ico svg{width:28px;height:28px}
-  .svc.soon .ico{background:linear-gradient(135deg,var(--gold),var(--gold-2));color:#3a2600}
+  .svc.soon .ico{background:linear-gradient(135deg,var(--gold),var(--gold-3));color:#fff}
   .svc h3{font-size:1.25rem;color:var(--indigo);margin-bottom:8px}
   .svc p{color:#5b608a;font-size:.95rem;margin-bottom:14px}
   .svc .from{font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--royal);font-weight:700}
-  .svc .pill{position:absolute;top:18px;right:18px;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:1px;background:rgba(245,166,35,.15);color:#a86d00;padding:5px 10px;border-radius:999px}
+  .svc .pill{position:absolute;top:18px;right:18px;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:1px;background:rgba(249,115,22,.15);color:#9a3412;padding:5px 10px;border-radius:999px}
 
   /* ---------- PROBLEM ---------- */
   .problem{background:linear-gradient(160deg,var(--indigo),var(--indigo-2));color:#fff;overflow:hidden}
@@ -220,7 +221,7 @@
   .prob h4{font-size:1.12rem;margin-bottom:8px}
   .prob p{color:#bcc0e6;font-size:.92rem}
 
-  /* ---------- WHY ARENA ---------- */
+  /* ---------- WHY SOLAROS ---------- */
   .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:30px}
   .why-list{display:flex;flex-direction:column;gap:18px;margin-top:26px}
   .why-item{display:flex;gap:16px;align-items:flex-start}
@@ -236,12 +237,12 @@
     background:linear-gradient(160deg,var(--indigo),var(--indigo-2));border-radius:var(--radius-lg);
     padding:34px;color:#fff;box-shadow:var(--shadow);position:relative;overflow:hidden;
   }
-  .map-card::before{content:"";position:absolute;top:-80px;right:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(245,166,35,.25),transparent 65%)}
+  .map-card::before{content:"";position:absolute;top:-80px;right:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(249,115,22,.25),transparent 65%)}
   .map-card h3{font-size:1.3rem;margin-bottom:6px;position:relative}
   .map-card p.s{color:#bcc0e6;font-size:.9rem;margin-bottom:22px;position:relative}
   .unit{display:flex;align-items:center;gap:14px;padding:15px 0;border-bottom:1px dashed var(--line);position:relative}
   .unit:last-of-type{border-bottom:none}
-  .unit .pin{width:40px;height:40px;border-radius:50%;background:rgba(245,166,35,.16);border:1px solid rgba(245,166,35,.4);display:flex;align-items:center;justify-content:center;color:var(--gold);flex-shrink:0}
+  .unit .pin{width:40px;height:40px;border-radius:50%;background:rgba(249,115,22,.16);border:1px solid rgba(249,115,22,.4);display:flex;align-items:center;justify-content:center;color:var(--gold);flex-shrink:0}
   .unit .pin svg{width:19px;height:19px}
   .unit b{font-size:1rem}
   .unit small{display:block;color:#9ea2cf;font-size:.78rem;font-family:'JetBrains Mono',monospace}
@@ -285,7 +286,7 @@
   /* ---------- CTA ---------- */
   .cta-final{
     background:
-      radial-gradient(800px 420px at 50% -10%, rgba(37,71,240,.45), transparent 60%),
+      radial-gradient(800px 420px at 50% -10%, rgba(37,99,235,.45), transparent 60%),
       linear-gradient(160deg,var(--ink),var(--indigo-2));
     color:#fff;text-align:center;padding:94px 0;overflow:hidden;
   }
@@ -364,7 +365,7 @@
     width:100%;padding:15px 16px;border:1.6px solid #e1e4f2;border-radius:13px;
     font-family:'Poppins',sans-serif;font-size:1rem;color:var(--ink);transition:.2s;background:#fff;
   }
-  .field:focus{outline:none;border-color:var(--royal);box-shadow:0 0 0 4px rgba(37,71,240,.12)}
+  .field:focus{outline:none;border-color:var(--royal);box-shadow:0 0 0 4px rgba(37,99,235,.12)}
   .field::placeholder{color:#b3b7d4}
   .opts{display:flex;flex-direction:column;gap:11px}
   .opt{
@@ -463,13 +464,13 @@
     <a href="#top" class="brand">
       <div class="logo"><svg><use href="#i-sun"/></svg></div>
       <div>
-        <b>Arena Energia Solar</b>
+        <b>Solar<span style="color:var(--gold)">OS</span></b>
         <small>Interior de SP</small>
       </div>
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="#servicos">Serviços</a>
-      <a href="#porque">Por que a Arena</a>
+      <a href="#porque">Por que a SolarOS</a>
       <a href="#cases">Resultados</a>
       <a href="#faq">Dúvidas</a>
     </nav>
@@ -488,7 +489,7 @@
     <div>
       <div class="badge reveal"><span class="dot"></span> Energia solar no interior paulista</div>
       <h1 class="reveal">Pare de financiar a distribuidora. Economize <span class="hl">até 85%</span> na conta de luz.</h1>
-      <p class="lead reveal">Todo mês a sua conta vai embora e <b>não vira nada</b>. Com energia solar da Arena, esse mesmo dinheiro vira economia no seu bolso — projeto sob medida, instalação completa e atendimento na sua cidade.</p>
+      <p class="lead reveal">Todo mês a sua conta vai embora e <b>não vira nada</b>. Com energia solar da SolarOS, esse mesmo dinheiro vira economia no seu bolso — projeto sob medida, instalação completa e atendimento na sua cidade.</p>
       <div class="cities reveal">
         <span><svg class="ico-svg"><use href="#i-pin"/></svg> São José do Rio Preto</span>
         <span><svg class="ico-svg"><use href="#i-pin"/></svg> Ibitinga</span>
@@ -498,7 +499,7 @@
       </div>
       <div class="hero-actions reveal">
         <button class="btn btn-gold" onclick="openWizard()">Quero meu relatório de economia <svg class="ico-svg"><use href="#i-arrow"/></svg></button>
-        <a class="btn btn-ghost" href="https://wa.me/5516996224950?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Arena%20e%20quero%20saber%20mais%20sobre%20energia%20solar." target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn-ghost" href="https://wa.me/5516996224950?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SolarOS%20e%20quero%20saber%20mais%20sobre%20energia%20solar." target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
       <div class="hero-actions reveal" style="margin-top:18px">
         <span class="micro">
@@ -615,12 +616,12 @@
   </div>
 </section>
 
-<!-- ============ WHY ARENA ============ -->
+<!-- ============ WHY SOLAROS ============ -->
 <section class="sec alt" id="porque">
   <div class="wrap">
     <div class="why-grid">
       <div class="reveal">
-        <div class="eyebrow">Por que a Arena</div>
+        <div class="eyebrow">Por que a SolarOS</div>
         <h2>Uma empresa do interior, <span class="hl">perto de você de verdade</span></h2>
         <p class="sub">Nada de call center distante prometendo o impossível. Atendemos São José do Rio Preto, Ibitinga, Barretos e região com presença local — você fala com quem conhece a sua cidade e bota a cara pra instalar.</p>
         <div class="why-list">
@@ -643,7 +644,7 @@
         </div>
       </div>
       <div class="map-card reveal">
-        <h3>Onde a Arena atende</h3>
+        <h3>Onde a SolarOS atende</h3>
         <p class="s">Presença no interior de SP — fale com a unidade mais perto de você.</p>
         <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>São José do Rio Preto</b><small>Residencial · Comercial</small></div></div>
         <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Ibitinga</b><small>Residencial · Comercial</small></div></div>
@@ -661,7 +662,7 @@
     <div class="center reveal">
       <div class="eyebrow">Resultados</div>
       <h2>Economia real, em cada cidade que atendemos</h2>
-      <p class="sub">Resultados representativos por região. Os números abaixo são exemplos a serem preenchidos com cases reais da Arena.</p>
+      <p class="sub">Resultados representativos por região. Os números abaixo são exemplos a serem preenchidos com cases reais da SolarOS.</p>
     </div>
     <div class="case-grid">
       <div class="case reveal">
@@ -683,7 +684,7 @@
         <span class="ph">[placeholder: case real Barretos]</span>
       </div>
     </div>
-    <p class="case-disclaimer">* Substituir por cases verificados da Arena antes de publicar. Nenhum número acima deve ir ao ar sem confirmação.</p>
+    <p class="case-disclaimer">* Substituir por cases verificados da SolarOS antes de publicar. Nenhum número acima deve ir ao ar sem confirmação.</p>
   </div>
 </section>
 
@@ -730,7 +731,7 @@
       </div>
       <div class="faq-item reveal">
         <div class="faq-q">É muito complicado de instalar e manter? <span class="plus">+</span></div>
-        <div class="faq-a"><div>Não. A Arena cuida de todo o processo — projeto, instalação e acompanhamento. O sistema exige baixa manutenção e é feito para durar muitos anos com mínima preocupação.</div></div>
+        <div class="faq-a"><div>Não. A SolarOS cuida de todo o processo — projeto, instalação e acompanhamento. O sistema exige baixa manutenção e é feito para durar muitos anos com mínima preocupação.</div></div>
       </div>
       <div class="faq-item reveal">
         <div class="faq-q">Serve para empresa e para área rural? <span class="plus">+</span></div>
@@ -747,7 +748,7 @@
     <p class="reveal">Cada mês que você espera é dinheiro queimado. Em 1 minuto você descobre quanto pode economizar por mês com energia solar — sem custo e sem compromisso.</p>
     <button class="btn btn-gold reveal" style="font-size:1.08rem;padding:18px 36px" onclick="openWizard()">Gerar meu relatório de economia <svg class="ico-svg"><use href="#i-arrow"/></svg></button>
     <div class="micro reveal">
-      <b><svg class="ico-svg"><use href="#i-lock"/></svg> Seus dados ficam só com a Arena</b>
+      <b><svg class="ico-svg"><use href="#i-lock"/></svg> Seus dados ficam só com a SolarOS</b>
       <b><svg class="ico-svg"><use href="#i-clock"/></svg> Leva menos de 1 minuto</b>
     </div>
   </div>
@@ -760,7 +761,7 @@
       <div>
         <div class="brand">
           <div class="logo"><svg><use href="#i-sun"/></svg></div>
-          <div><b>Arena Energia Solar</b><small>Interior de SP</small></div>
+          <div><b>Solar<span style="color:var(--gold)">OS</span></b><small>Interior de SP</small></div>
         </div>
         <p class="fdesc">Energia solar residencial e comercial no interior paulista. Economize até 85% na conta de luz com atendimento próximo, na sua cidade.</p>
       </div>
@@ -768,8 +769,8 @@
         <h5>Atendimento</h5>
         <a href="https://wa.me/5516996224950" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-phone"/></svg> WhatsApp (16) 99622-4950</a>
         <a href="tel:+5516996224950"><svg class="ico-svg"><use href="#i-phone"/></svg> Ligar agora</a>
-        <a href="https://instagram.com/arenasolar1" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-instagram"/></svg> Instagram @arenasolar1</a>
-        <a href="https://arenaenergiasolar.com.br" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-globe"/></svg> arenaenergiasolar.com.br</a>
+        <a href="https://instagram.com/solaros" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-instagram"/></svg> Instagram @solaros</a>
+        <a href="https://solaros.com.br" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-globe"/></svg> solaros.com.br</a>
       </div>
       <div class="foot-col">
         <h5>Cidades</h5>
@@ -780,14 +781,14 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Arena Energia Solar. Todos os direitos reservados. Vendas: Alexandre.</span>
+      <span>© 2026 SolarOS. Todos os direitos reservados. Vendas: Alexandre.</span>
       <span class="ordem">Operação inteligente por <b>ORDEM</b> · <span class="sos">SolarOS™</span></span>
     </div>
   </div>
 </footer>
 
 <!-- ============ WHATSAPP FLOAT ============ -->
-<a class="wa-float" href="https://wa.me/5516996224950?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Arena%20Solar%20e%20quero%20saber%20mais." target="_blank" rel="noopener" aria-label="WhatsApp">
+<a class="wa-float" href="https://wa.me/5516996224950?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SolarOS%20e%20quero%20saber%20mais." target="_blank" rel="noopener" aria-label="WhatsApp">
   <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
 </a>
 
@@ -881,7 +882,7 @@
             <div class="ramt" id="r_25">R$ 0</div>
             <div class="ryear" id="r_ano">+ R$ 0 por ano</div>
           </div>
-          <p class="disc">* Estimativa baseada em até 85% de economia sobre a conta informada e projeção de 25 anos sem reajuste de tarifa. Valor real depende do projeto dimensionado pela Arena. Não é uma proposta comercial.</p>
+          <p class="disc">* Estimativa baseada em até 85% de economia sobre a conta informada e projeção de 25 anos sem reajuste de tarifa. Valor real depende do projeto dimensionado pela SolarOS. Não é uma proposta comercial.</p>
         </div>
       </div>
     </div>
@@ -889,7 +890,7 @@
     <div class="modal-foot">
       <button class="btn btn-back" id="btnBack" onclick="prevStep()" style="display:none">← Voltar</button>
       <button class="btn btn-royal" id="btnNext" onclick="nextStep()">Continuar →</button>
-      <a class="btn btn-gold" id="btnZap" style="display:none;background:#25D366;color:#fff" target="_blank" rel="noopener">Falar com a Arena no WhatsApp →</a>
+      <a class="btn btn-gold" id="btnZap" style="display:none;background:#25D366;color:#fff" target="_blank" rel="noopener">Falar com a SolarOS no WhatsApp →</a>
     </div>
   </div>
 </div>
@@ -1077,7 +1078,7 @@ function buildReport(){
 function buildWaLink(){
   var c = data._calc || {};
   var msg =
-    'Olá! Vim pelo site da Arena Solar e quero meu projeto de economia.\n\n' +
+    'Olá! Vim pelo site da SolarOS e quero meu projeto de economia.\n\n' +
     '*Nome:* ' + data.nome + '\n' +
     '*WhatsApp:* ' + data.zap + '\n' +
     '*Cidade:* ' + data.cidade + '\n' +
