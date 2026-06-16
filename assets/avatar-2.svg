@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cliente SolarOS">
+  <defs><clipPath id="c2"><circle cx="100" cy="100" r="100"/></clipPath></defs>
+  <g clip-path="url(#c2)">
+    <rect width="200" height="200" fill="#e7f0ea"/>
+    <circle cx="100" cy="205" r="80" fill="#1f3a64"/>
+    <path d="M58 205 v-44 a42 42 0 0 1 84 0 v44 Z" fill="#2a4e85"/>
+    <rect x="90" y="118" width="20" height="34" fill="#cf9469"/>
+    <circle cx="100" cy="96" r="40" fill="#e0a878"/>
+    <path d="M62 88 q4 -36 38 -36 q34 0 38 36 q-10 -16 -38 -16 q-28 0 -38 16 Z" fill="#2b2622"/>
+    <rect x="64" y="84" width="72" height="10" rx="5" fill="#2b2622"/>
+    <circle cx="86" cy="98" r="4.5" fill="#2b2622"/><circle cx="114" cy="98" r="4.5" fill="#2b2622"/>
+    <path d="M80 78 q6 -6 14 -4 M120 78 q-6 -6 -14 -4" fill="none" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+    <path d="M82 122 q9 7 18 7 q9 0 18 -7" fill="none" stroke="#b07a4f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M84 116 q16 6 32 0 l0 6 q-16 8 -32 0 Z" fill="#5a4636"/>
+  </g>
+</svg>
