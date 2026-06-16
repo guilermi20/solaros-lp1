@@ -3,33 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SolarOS — Economize até 85% na conta de luz | Rio Preto, Ibitinga, Barretos</title>
-<meta name="description" content="Energia solar residencial e comercial no interior de SP. Pare de financiar a distribuidora e economize até 85% na conta de luz. Atendimento próximo em São José do Rio Preto, Ibitinga e Barretos.">
-<meta name="theme-color" content="#0b1030">
+<title>Energia solar em Natal e no RN — economize até 85% | SolarOS</title>
+<meta name="description" content="Energia solar residencial e comercial em Natal, a Cidade do Sol. O Rio Grande do Norte tem uma das maiores irradiações solares do Brasil — pare de engordar a conta da Cosern e economize até 85%. Atendimento potiguar em Natal, Parnamirim, Mossoró, São Gonçalo do Amarante e Macaíba.">
+<meta name="theme-color" content="#06241B">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --indigo:#0b1030;
-    --indigo-2:#101a4e;
-    --indigo-3:#1e3a8a;
-    --gold:#F97316;
-    --gold-2:#FDBA74;
-    --gold-3:#EA580C;
-    --royal:#2563EB;
-    --royal-2:#1D4ED8;
-    --ink:#080a26;
+    /* base verde-petróleo profundo (substitui os indigos) */
+    --indigo:#06241B;
+    --indigo-2:#052e22;
+    --indigo-3:#0a3326;
+    /* dourado solar (accent principal) */
+    --gold:#F59E0B;
+    --gold-2:#FBBF24;
+    --gold-3:#D97706;
+    /* verde esmeralda (cor de apoio/ação) */
+    --royal:#10B981;
+    --royal-2:#059669;
+    --ink:#04190F;
     --white:#ffffff;
-    --mist:#f3f5fc;
-    --gray:#8a8fb5;
-    --green:#1aa86b;
-    --green-soft:#5ee6a0;
+    --mist:#f1faf6;
+    --gray:#7d9088;
+    --green:#059669;
+    --green-soft:#6EE7B7;
     --line:rgba(255,255,255,.10);
-    --line-2:#e7e9f5;
-    --shadow:0 24px 60px rgba(13,15,61,.22);
-    --shadow-sm:0 10px 28px rgba(13,15,61,.10);
-    --glow-gold:0 0 0 1px rgba(249,115,22,.4), 0 14px 40px rgba(249,115,22,.35);
+    --line-2:#dceee6;
+    --shadow:0 24px 60px rgba(6,36,27,.22);
+    --shadow-sm:0 10px 28px rgba(6,36,27,.10);
+    --glow-gold:0 0 0 1px rgba(245,158,11,.4), 0 14px 40px rgba(245,158,11,.35);
     --radius:18px;
     --radius-lg:26px;
   }
@@ -58,11 +61,11 @@
     font-family:'Poppins',sans-serif;line-height:1;position:relative;
   }
   .btn svg{width:18px;height:18px}
-  .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-3));color:#fff;box-shadow:0 14px 32px rgba(249,115,22,.42)}
-  .btn-gold:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(249,115,22,.55)}
+  .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-3));color:#fff;box-shadow:0 14px 32px rgba(245,158,11,.42)}
+  .btn-gold:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(245,158,11,.55)}
   .btn-ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid var(--line)}
   .btn-ghost:hover{background:rgba(255,255,255,.18)}
-  .btn-royal{background:var(--royal);color:#fff;box-shadow:0 12px 30px rgba(37,99,235,.4)}
+  .btn-royal{background:var(--royal);color:#fff;box-shadow:0 12px 30px rgba(16,185,129,.4)}
   .btn-royal:hover{transform:translateY(-2px);background:var(--royal-2)}
   .btn-block{width:100%}
   /* shine sweep on gold buttons */
@@ -77,7 +80,7 @@
   /* ---------- NAV ---------- */
   header.nav{
     position:sticky;top:0;z-index:50;
-    background:rgba(13,15,61,.82);backdrop-filter:blur(14px);
+    background:rgba(6,36,27,.82);backdrop-filter:blur(14px);
     border-bottom:1px solid var(--line);
   }
   .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;max-width:1180px;margin:0 auto}
@@ -86,13 +89,13 @@
     width:44px;height:44px;border-radius:13px;
     background:linear-gradient(135deg,var(--gold),var(--gold-3));
     display:flex;align-items:center;justify-content:center;color:#fff;
-    box-shadow:0 8px 18px rgba(249,115,22,.45);
+    box-shadow:0 8px 18px rgba(245,158,11,.45);
   }
   .brand .logo svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2}
   .brand b{font-size:1.08rem;font-weight:700;letter-spacing:.3px}
   .brand small{display:block;font-size:.66rem;color:var(--gold);font-family:'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase}
   .nav-links{display:flex;align-items:center;gap:26px}
-  .nav-links a{color:#cfd2f0;font-size:.92rem;font-weight:500;transition:.2s;position:relative}
+  .nav-links a{color:#cfe6dc;font-size:.92rem;font-weight:500;transition:.2s;position:relative}
   .nav-links a::after{content:"";position:absolute;left:0;bottom:-5px;height:2px;width:0;background:var(--gold);transition:width .25s ease}
   .nav-links a:hover{color:#fff}
   .nav-links a:hover::after{width:100%}
@@ -105,42 +108,42 @@
   /* ---------- HERO ---------- */
   .hero{
     background:
-      radial-gradient(1200px 640px at 82% -12%, rgba(37,99,235,.5), transparent 60%),
-      radial-gradient(900px 520px at -5% 115%, rgba(249,115,22,.2), transparent 55%),
-      linear-gradient(160deg,var(--indigo) 0%,var(--indigo-2) 55%,#08092c 100%);
+      radial-gradient(1200px 640px at 82% -12%, rgba(16,185,129,.5), transparent 60%),
+      radial-gradient(900px 520px at -5% 115%, rgba(245,158,11,.2), transparent 55%),
+      linear-gradient(160deg,var(--indigo) 0%,var(--indigo-2) 55%,#04190F 100%);
     color:#fff;padding:78px 0 96px;overflow:hidden;
   }
   /* animated sun glow */
   .hero .sun{
     position:absolute;top:-140px;right:-120px;width:460px;height:460px;border-radius:50%;
-    background:radial-gradient(circle,rgba(249,115,22,.5),rgba(249,115,22,0) 65%);
+    background:radial-gradient(circle,rgba(245,158,11,.5),rgba(245,158,11,0) 65%);
     filter:blur(8px);animation:breathe 6s ease-in-out infinite;pointer-events:none;
   }
   @keyframes breathe{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.12);opacity:1}}
   .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;position:relative;z-index:2}
   .badge{
     display:inline-flex;align-items:center;gap:9px;
-    background:rgba(249,115,22,.14);border:1px solid rgba(249,115,22,.42);
+    background:rgba(245,158,11,.14);border:1px solid rgba(245,158,11,.42);
     color:var(--gold);padding:8px 16px;border-radius:999px;
     font-family:'JetBrains Mono',monospace;font-size:.74rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:22px;
   }
-  .badge .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(249,115,22,.25);animation:blink 1.6s ease-in-out infinite}
+  .badge .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(245,158,11,.25);animation:blink 1.6s ease-in-out infinite}
   @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
   .hero h1{font-size:3.15rem;line-height:1.07;font-weight:800;letter-spacing:-1px;margin-bottom:20px}
   .hero h1 .hl{background:linear-gradient(120deg,var(--gold),var(--gold-2));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .hero p.lead{font-size:1.18rem;color:#d2d5f1;max-width:560px;margin-bottom:14px}
+  .hero p.lead{font-size:1.18rem;color:#d6ebe2;max-width:560px;margin-bottom:14px}
   .hero p.lead b{color:#fff}
   .hero .cities{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 30px}
   .hero .cities span{
     display:inline-flex;align-items:center;gap:6px;
     font-family:'JetBrains Mono',monospace;font-size:.78rem;
     background:rgba(255,255,255,.06);border:1px solid var(--line);
-    padding:7px 13px;border-radius:999px;color:#dfe1f5;
+    padding:7px 13px;border-radius:999px;color:#dff1ea;
   }
   .hero .cities span svg{width:13px;height:13px;color:var(--gold)}
   .hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-  .hero-actions .micro{font-size:.82rem;color:#a9adcf;display:flex;flex-wrap:wrap;align-items:center;gap:14px}
-  .hero-actions .micro b{display:inline-flex;align-items:center;gap:6px;font-weight:500;color:#c7cae8}
+  .hero-actions .micro{font-size:.82rem;color:#9bb8ac;display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+  .hero-actions .micro b{display:inline-flex;align-items:center;gap:6px;font-weight:500;color:#c4e0d4}
   .hero-actions .micro svg{width:14px;height:14px;color:var(--green-soft)}
 
   /* hero card */
@@ -149,20 +152,20 @@
     border:1px solid var(--line);border-radius:var(--radius-lg);
     padding:30px;box-shadow:var(--shadow);backdrop-filter:blur(8px);position:relative;
   }
-  .hero-card::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(160deg,rgba(249,115,22,.5),transparent 40%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+  .hero-card::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(160deg,rgba(245,158,11,.5),transparent 40%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
   .hero-card .hc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
   .hero-card .hc-top b{font-size:1rem}
-  .hero-card .hc-top .tag{font-family:'JetBrains Mono',monospace;font-size:.66rem;color:var(--gold);text-transform:uppercase;letter-spacing:1px;border:1px solid rgba(249,115,22,.4);padding:4px 9px;border-radius:999px}
+  .hero-card .hc-top .tag{font-family:'JetBrains Mono',monospace;font-size:.66rem;color:var(--gold);text-transform:uppercase;letter-spacing:1px;border:1px solid rgba(245,158,11,.4);padding:4px 9px;border-radius:999px}
   .sim-row{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px dashed var(--line)}
   .sim-row:last-of-type{border-bottom:none}
-  .sim-row .lbl{color:#bfc2e6;font-size:.92rem}
+  .sim-row .lbl{color:#bcdacc;font-size:.92rem}
   .sim-row .val{font-weight:700;font-size:1.05rem;font-family:'JetBrains Mono',monospace}
   .sim-row .val.bad{color:#ff8b8b;text-decoration:line-through;text-decoration-color:rgba(255,139,139,.5)}
   .sim-row .val.good{color:var(--green-soft)}
   .sim-bar{height:11px;border-radius:999px;background:rgba(255,255,255,.1);overflow:hidden;margin:14px 0 6px}
   .sim-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-2));border-radius:999px;transition:width 1.4s cubic-bezier(.2,.7,.2,1)}
   .hero-card.in .sim-bar i{width:85%}
-  .sim-note{font-size:.74rem;color:#a9adcf;text-align:center;margin-top:4px}
+  .sim-note{font-size:.74rem;color:#9bb8ac;text-align:center;margin-top:4px}
   .hero-card .btn{margin-top:18px}
 
   /* ---------- STRIP ---------- */
@@ -171,7 +174,7 @@
   .strip-grid .cell{position:relative}
   .strip-grid .cell:not(:last-child)::after{content:"";position:absolute;right:-11px;top:14%;height:72%;width:1px;background:var(--line)}
   .strip-grid .num{font-size:2.1rem;font-weight:800;color:var(--gold);font-family:'JetBrains Mono',monospace;line-height:1}
-  .strip-grid .cap{font-size:.82rem;color:#b9bce0;margin-top:8px}
+  .strip-grid .cap{font-size:.82rem;color:#aecdc0;margin-top:8px}
 
   /* ---------- SECTION HEADERS ---------- */
   .sec{padding:88px 0}
@@ -183,7 +186,7 @@
   .eyebrow::before{content:"";width:26px;height:2px;background:var(--gold)}
   .sec h2{font-size:2.3rem;font-weight:800;letter-spacing:-.5px;color:var(--indigo);line-height:1.14;margin-bottom:14px}
   .sec h2 .hl{color:var(--royal)}
-  .sec .sub{font-size:1.05rem;color:#5b608a;max-width:640px}
+  .sec .sub{font-size:1.05rem;color:#52705f;max-width:640px}
   .center{text-align:center}
   .center .eyebrow{justify-content:center}
   .center .sub{margin:0 auto}
@@ -195,7 +198,7 @@
     padding:32px 30px;box-shadow:var(--shadow-sm);transition:transform .25s,box-shadow .25s,border-color .25s;position:relative;overflow:hidden;
   }
   .svc::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--royal),var(--indigo-3));transform:scaleX(0);transform-origin:left;transition:transform .3s}
-  .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#d6d9ee}
+  .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#cae6db}
   .svc:hover::before{transform:scaleX(1)}
   .svc.soon::before{background:linear-gradient(90deg,var(--gold),var(--gold-2))}
   .svc .ico{
@@ -205,21 +208,21 @@
   .svc .ico svg{width:28px;height:28px}
   .svc.soon .ico{background:linear-gradient(135deg,var(--gold),var(--gold-3));color:#fff}
   .svc h3{font-size:1.25rem;color:var(--indigo);margin-bottom:8px}
-  .svc p{color:#5b608a;font-size:.95rem;margin-bottom:14px}
+  .svc p{color:#52705f;font-size:.95rem;margin-bottom:14px}
   .svc .from{font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--royal);font-weight:700}
-  .svc .pill{position:absolute;top:18px;right:18px;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:1px;background:rgba(249,115,22,.15);color:#9a3412;padding:5px 10px;border-radius:999px}
+  .svc .pill{position:absolute;top:18px;right:18px;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:1px;background:rgba(245,158,11,.15);color:#7c3a06;padding:5px 10px;border-radius:999px}
 
   /* ---------- PROBLEM ---------- */
   .problem{background:linear-gradient(160deg,var(--indigo),var(--indigo-2));color:#fff;overflow:hidden}
   .problem h2{color:#fff}
-  .problem .sub{color:#c2c5ea}
+  .problem .sub{color:#c0e2d4}
   .prob-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:46px}
   .prob{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:var(--radius);padding:28px;transition:transform .25s,background .25s}
   .prob:hover{transform:translateY(-5px);background:rgba(255,255,255,.08)}
   .prob .n{font-family:'JetBrains Mono',monospace;color:var(--gold);font-size:.8rem;letter-spacing:1px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
   .prob .n svg{width:22px;height:22px}
   .prob h4{font-size:1.12rem;margin-bottom:8px}
-  .prob p{color:#bcc0e6;font-size:.92rem}
+  .prob p{color:#b7d6c8;font-size:.92rem}
 
   /* ---------- WHY SOLAROS ---------- */
   .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:30px}
@@ -232,20 +235,20 @@
   }
   .why-item .chk svg{width:22px;height:22px}
   .why-item h4{font-size:1.05rem;color:var(--indigo);margin-bottom:3px}
-  .why-item p{font-size:.93rem;color:#5b608a}
+  .why-item p{font-size:.93rem;color:#52705f}
   .map-card{
     background:linear-gradient(160deg,var(--indigo),var(--indigo-2));border-radius:var(--radius-lg);
     padding:34px;color:#fff;box-shadow:var(--shadow);position:relative;overflow:hidden;
   }
-  .map-card::before{content:"";position:absolute;top:-80px;right:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(249,115,22,.25),transparent 65%)}
+  .map-card::before{content:"";position:absolute;top:-80px;right:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(245,158,11,.25),transparent 65%)}
   .map-card h3{font-size:1.3rem;margin-bottom:6px;position:relative}
-  .map-card p.s{color:#bcc0e6;font-size:.9rem;margin-bottom:22px;position:relative}
+  .map-card p.s{color:#b7d6c8;font-size:.9rem;margin-bottom:22px;position:relative}
   .unit{display:flex;align-items:center;gap:14px;padding:15px 0;border-bottom:1px dashed var(--line);position:relative}
   .unit:last-of-type{border-bottom:none}
-  .unit .pin{width:40px;height:40px;border-radius:50%;background:rgba(249,115,22,.16);border:1px solid rgba(249,115,22,.4);display:flex;align-items:center;justify-content:center;color:var(--gold);flex-shrink:0}
+  .unit .pin{width:40px;height:40px;border-radius:50%;background:rgba(245,158,11,.16);border:1px solid rgba(245,158,11,.4);display:flex;align-items:center;justify-content:center;color:var(--gold);flex-shrink:0}
   .unit .pin svg{width:19px;height:19px}
   .unit b{font-size:1rem}
-  .unit small{display:block;color:#9ea2cf;font-size:.78rem;font-family:'JetBrains Mono',monospace}
+  .unit small{display:block;color:#94b6a8;font-size:.78rem;font-family:'JetBrains Mono',monospace}
 
   /* ---------- CASES ---------- */
   .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:46px}
@@ -258,57 +261,71 @@
   .case .city svg{width:14px;height:14px}
   .case .metric{font-size:2.1rem;font-weight:800;color:var(--indigo);line-height:1}
   .case .metric span{font-size:1rem;color:var(--gray);font-weight:600}
-  .case p{color:#5b608a;font-size:.92rem;margin:12px 0}
-  .case .ph{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:#b0739a;background:#fdf0f6;border:1px dashed #e8b9d3;padding:8px 11px;border-radius:9px;display:inline-block}
+  .case p{color:#52705f;font-size:.92rem;margin:12px 0}
+  .case .case-photo{height:150px;border-radius:13px;background-size:cover;background-position:center;margin:-4px 0 18px;position:relative;overflow:hidden;border:1px solid var(--line-2)}
+  .case .case-photo .tag{position:absolute;top:11px;left:11px;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:1px;background:rgba(4,25,15,.72);color:#fff;padding:5px 10px;border-radius:999px;backdrop-filter:blur(4px)}
   .case-disclaimer{text-align:center;margin-top:26px;font-size:.84rem;color:var(--gray);font-style:italic}
+
+  /* ---------- TESTIMONIALS ---------- */
+  .tst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:46px}
+  .tst{background:#fff;border:1px solid var(--line-2);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:15px;transition:transform .25s,box-shadow .25s}
+  .tst:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+  .tst .stars{color:var(--gold);font-size:1.05rem;letter-spacing:3px}
+  .tst .quote{color:#3a4f44;font-size:.97rem;line-height:1.62;flex:1}
+  .tst .person{display:flex;align-items:center;gap:13px;border-top:1px solid var(--line-2);padding-top:16px}
+  .tst .person img{width:54px;height:54px;border-radius:50%;flex-shrink:0;box-shadow:var(--shadow-sm)}
+  .tst .person b{display:block;color:var(--indigo);font-size:.96rem}
+  .tst .person small{color:var(--gray);font-size:.78rem;font-family:'JetBrains Mono',monospace;display:flex;align-items:center;gap:5px;margin-top:2px}
+  .tst .person small svg{width:12px;height:12px;color:var(--royal)}
+  @media(max-width:920px){.tst-grid{grid-template-columns:1fr}}
 
   /* ---------- DIFFERENTIALS ---------- */
   .diff-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:46px}
   .diff{background:#fff;border:1px solid var(--line-2);border-radius:var(--radius);padding:24px 18px;text-align:center;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s}
   .diff:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
-  .diff .ico{width:48px;height:48px;margin:0 auto 14px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#eef1ff,#e3e8ff);color:var(--royal)}
+  .diff .ico{width:48px;height:48px;margin:0 auto 14px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#e2f7ef,#d2f1e4);color:var(--royal)}
   .diff .ico svg{width:24px;height:24px}
   .diff h4{font-size:.98rem;color:var(--indigo);margin-bottom:6px}
-  .diff p{font-size:.82rem;color:#5b608a}
+  .diff p{font-size:.82rem;color:#52705f}
 
   /* ---------- FAQ ---------- */
   .faq-list{max-width:800px;margin:46px auto 0;display:flex;flex-direction:column;gap:14px}
   .faq-item{background:#fff;border:1px solid var(--line-2);border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm);transition:border-color .2s}
-  .faq-item.open{border-color:#c9cdf0}
+  .faq-item.open{border-color:#bfe6d6}
   .faq-q{padding:20px 24px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;color:var(--indigo);gap:16px}
-  .faq-q:hover{background:#fafbff}
+  .faq-q:hover{background:#f5fcf9}
   .faq-q .plus{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:var(--mist);display:flex;align-items:center;justify-content:center;color:var(--royal);font-weight:800;transition:.25s;font-size:1.1rem}
   .faq-item.open .faq-q .plus{transform:rotate(45deg);background:var(--royal);color:#fff}
-  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:#5b608a;font-size:.95rem}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:#52705f;font-size:.95rem}
   .faq-a div{padding:0 24px 22px}
   .faq-item.open .faq-a{max-height:340px}
 
   /* ---------- CTA ---------- */
   .cta-final{
     background:
-      radial-gradient(800px 420px at 50% -10%, rgba(37,99,235,.45), transparent 60%),
+      radial-gradient(800px 420px at 50% -10%, rgba(16,185,129,.45), transparent 60%),
       linear-gradient(160deg,var(--ink),var(--indigo-2));
     color:#fff;text-align:center;padding:94px 0;overflow:hidden;
   }
   .cta-final h2{font-size:2.6rem;font-weight:800;color:#fff;margin-bottom:16px;letter-spacing:-.5px}
   .cta-final h2 .hl{color:var(--gold)}
-  .cta-final p{font-size:1.12rem;color:#cdd0ee;max-width:580px;margin:0 auto 32px}
-  .cta-final .micro{margin-top:18px;font-size:.82rem;color:#9094bf;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
-  .cta-final .micro b{display:inline-flex;align-items:center;gap:6px;font-weight:500;color:#c7cae8}
+  .cta-final p{font-size:1.12rem;color:#cce7dc;max-width:580px;margin:0 auto 32px}
+  .cta-final .micro{margin-top:18px;font-size:.82rem;color:#86a89a;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+  .cta-final .micro b{display:inline-flex;align-items:center;gap:6px;font-weight:500;color:#c4e0d4}
   .cta-final .micro svg{width:14px;height:14px;color:var(--green-soft)}
 
   /* ---------- FOOTER ---------- */
-  footer{background:var(--ink);color:#cfd2f0;padding:58px 0 28px}
+  footer{background:var(--ink);color:#cfe6dc;padding:58px 0 28px}
   .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:34px;border-bottom:1px solid var(--line)}
   footer .brand b{color:#fff}
-  footer p.fdesc{font-size:.9rem;color:#9ea2cf;margin-top:16px;max-width:330px}
+  footer p.fdesc{font-size:.9rem;color:#94b6a8;margin-top:16px;max-width:330px}
   .foot-col h5{color:#fff;font-size:.95rem;margin-bottom:14px;font-weight:600}
-  .foot-col a,.foot-col p{display:flex;align-items:center;gap:8px;color:#9ea2cf;font-size:.9rem;margin-bottom:9px;transition:.2s}
+  .foot-col a,.foot-col p{display:flex;align-items:center;gap:8px;color:#94b6a8;font-size:.9rem;margin-bottom:9px;transition:.2s}
   .foot-col a svg{width:15px;height:15px}
   .foot-col a:hover{color:var(--gold)}
-  .foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;font-size:.8rem;color:#7c80aa}
+  .foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;font-size:.8rem;color:#739186}
   .foot-bottom .ordem{display:flex;align-items:center;gap:8px}
-  .foot-bottom .ordem b{color:#cfd2f0}
+  .foot-bottom .ordem b{color:#cfe6dc}
   .foot-bottom .ordem .sos{color:var(--gold);font-family:'JetBrains Mono',monospace}
 
   /* ---------- WHATSAPP FLOAT ---------- */
@@ -336,7 +353,7 @@
 
   /* ---------- MODAL / WIZARD ---------- */
   .modal-overlay{
-    position:fixed;inset:0;z-index:100;background:rgba(8,9,30,.8);backdrop-filter:blur(6px);
+    position:fixed;inset:0;z-index:100;background:rgba(4,25,15,.8);backdrop-filter:blur(6px);
     display:none;align-items:center;justify-content:center;padding:18px;
   }
   .modal-overlay.show{display:flex}
@@ -360,28 +377,28 @@
   .step.active{display:block;animation:fade .3s ease}
   @keyframes fade{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
   .step label.q{display:block;font-weight:700;color:var(--indigo);font-size:1.12rem;margin-bottom:6px}
-  .step p.hint{color:#8a8fb5;font-size:.85rem;margin-bottom:18px}
+  .step p.hint{color:#7d9088;font-size:.85rem;margin-bottom:18px}
   .field{
-    width:100%;padding:15px 16px;border:1.6px solid #e1e4f2;border-radius:13px;
+    width:100%;padding:15px 16px;border:1.6px solid #d3ece4;border-radius:13px;
     font-family:'Poppins',sans-serif;font-size:1rem;color:var(--ink);transition:.2s;background:#fff;
   }
-  .field:focus{outline:none;border-color:var(--royal);box-shadow:0 0 0 4px rgba(37,99,235,.12)}
-  .field::placeholder{color:#b3b7d4}
+  .field:focus{outline:none;border-color:var(--royal);box-shadow:0 0 0 4px rgba(16,185,129,.12)}
+  .field::placeholder{color:#a8c8ba}
   .opts{display:flex;flex-direction:column;gap:11px}
   .opt{
-    display:flex;align-items:center;gap:13px;padding:15px 16px;border:1.6px solid #e1e4f2;border-radius:13px;cursor:pointer;transition:.18s;font-weight:500;color:var(--ink);
+    display:flex;align-items:center;gap:13px;padding:15px 16px;border:1.6px solid #d3ece4;border-radius:13px;cursor:pointer;transition:.18s;font-weight:500;color:var(--ink);
   }
-  .opt:hover{border-color:var(--royal);background:#f7f9ff}
-  .opt.sel{border-color:var(--royal);background:#f2f5ff}
-  .opt .rb{width:22px;height:22px;border-radius:50%;border:2px solid #cdd1ea;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:.18s}
+  .opt:hover{border-color:var(--royal);background:#f1fbf7}
+  .opt.sel{border-color:var(--royal);background:#e8f7f0}
+  .opt .rb{width:22px;height:22px;border-radius:50%;border:2px solid #c2e3d5;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:.18s}
   .opt.sel .rb{border-color:var(--royal)}
   .opt.sel .rb::after{content:"";width:11px;height:11px;border-radius:50%;background:var(--royal)}
   .opt .em{font-size:1.3rem;line-height:1}
   .opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
-  .modal-foot{padding:16px 26px 24px;display:flex;gap:12px;border-top:1px solid #eef0f8}
+  .modal-foot{padding:16px 26px 24px;display:flex;gap:12px;border-top:1px solid #e6f4ee}
   .modal-foot .btn{flex:1;padding:15px}
-  .btn-back{background:#f0f1f8;color:#5b608a}
-  .btn-back:hover{background:#e6e8f3}
+  .btn-back{background:#eef4f1;color:#52705f}
+  .btn-back:hover{background:#e2efe9}
   .err{color:#e0466b;font-size:.82rem;margin-top:8px;display:none}
   .err.show{display:block}
 
@@ -389,19 +406,19 @@
   .report{text-align:center}
   .report .rico{font-size:2.6rem;margin-bottom:10px;line-height:1}
   .report h4{font-size:1.4rem;color:var(--indigo);margin-bottom:4px}
-  .report .rsub{color:#8a8fb5;font-size:.9rem;margin-bottom:20px}
+  .report .rsub{color:#7d9088;font-size:.9rem;margin-bottom:20px}
   .rcard{background:var(--mist);border-radius:16px;padding:20px;text-align:left;border:1px solid var(--line-2)}
-  .rline{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dashed #d8dbef}
+  .rline{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dashed #d4e7de}
   .rline:last-child{border-bottom:none}
-  .rline .l{color:#5b608a;font-size:.92rem}
+  .rline .l{color:#52705f;font-size:.92rem}
   .rline .v{font-weight:700;color:var(--indigo);font-family:'JetBrains Mono',monospace}
   .rline .v.bad{color:#e0466b}
   .rline .v.good{color:var(--green)}
   .rbig{background:linear-gradient(135deg,var(--indigo),var(--indigo-3));color:#fff;border-radius:16px;padding:22px;margin-top:16px;text-align:center}
-  .rbig .rlbl{font-size:.82rem;color:#c2c5ea;text-transform:uppercase;letter-spacing:1px;font-family:'JetBrains Mono',monospace}
+  .rbig .rlbl{font-size:.82rem;color:#c0e2d4;text-transform:uppercase;letter-spacing:1px;font-family:'JetBrains Mono',monospace}
   .rbig .ramt{font-size:2.4rem;font-weight:800;color:var(--gold);margin:4px 0}
-  .rbig .ryear{font-size:.88rem;color:#dfe1f5}
-  .report .disc{font-size:.74rem;color:#a5a9c8;margin-top:16px;line-height:1.5}
+  .rbig .ryear{font-size:.88rem;color:#dff1ea}
+  .report .disc{font-size:.74rem;color:#9ab8aa;margin-top:16px;line-height:1.5}
 
   /* ---------- RESPONSIVE ---------- */
   @media(max-width:920px){
@@ -465,17 +482,18 @@
       <div class="logo"><svg><use href="#i-sun"/></svg></div>
       <div>
         <b>Solar<span style="color:var(--gold)">OS</span></b>
-        <small>Interior de SP</small>
+        <small>Natal · Rio Grande do Norte</small>
       </div>
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="#servicos">Serviços</a>
       <a href="#porque">Por que a SolarOS</a>
       <a href="#cases">Resultados</a>
+      <a href="#depoimentos">Depoimentos</a>
       <a href="#faq">Dúvidas</a>
     </nav>
     <div class="nav-cta">
-      <a href="tel:+5516996224950" class="phone"><svg class="ico-svg"><use href="#i-phone"/></svg> (16) 99622-4950</a>
+      <a href="tel:+5584998042818" class="phone"><svg class="ico-svg"><use href="#i-phone"/></svg> (84) 99804-2818</a>
       <button class="btn btn-gold" style="padding:12px 22px;font-size:.92rem" onclick="openWizard()">Simular economia</button>
       <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
@@ -487,19 +505,20 @@
   <div class="sun" aria-hidden="true"></div>
   <div class="wrap hero-grid">
     <div>
-      <div class="badge reveal"><span class="dot"></span> Energia solar no interior paulista</div>
-      <h1 class="reveal">Pare de financiar a distribuidora. Economize <span class="hl">até 85%</span> na conta de luz.</h1>
-      <p class="lead reveal">Todo mês a sua conta vai embora e <b>não vira nada</b>. Com energia solar da SolarOS, esse mesmo dinheiro vira economia no seu bolso — projeto sob medida, instalação completa e atendimento na sua cidade.</p>
+      <div class="badge reveal"><span class="dot"></span> Energia solar na Cidade do Sol</div>
+      <h1 class="reveal">Natal tem o sol mais generoso do Brasil. Coloque ele pra <span class="hl">pagar a sua conta</span>.</h1>
+      <p class="lead reveal">No Rio Grande do Norte o sol não tira folga — e mesmo assim a sua conta de luz só sobe. Com energia solar da SolarOS, esse mesmo sol que castiga o telhado vira <b>até 85% de economia</b> todo mês. Projeto potiguar sob medida, instalação completa e gente da terra cuidando de tudo.</p>
       <div class="cities reveal">
-        <span><svg class="ico-svg"><use href="#i-pin"/></svg> São José do Rio Preto</span>
-        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Ibitinga</span>
-        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Barretos</span>
-        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Itápolis</span>
-        <span><svg class="ico-svg"><use href="#i-pin"/></svg> e região</span>
+        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Natal</span>
+        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Parnamirim</span>
+        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Mossoró</span>
+        <span><svg class="ico-svg"><use href="#i-pin"/></svg> São Gonçalo do Amarante</span>
+        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Macaíba</span>
+        <span><svg class="ico-svg"><use href="#i-pin"/></svg> Grande Natal e região</span>
       </div>
       <div class="hero-actions reveal">
         <button class="btn btn-gold" onclick="openWizard()">Quero meu relatório de economia <svg class="ico-svg"><use href="#i-arrow"/></svg></button>
-        <a class="btn btn-ghost" href="https://wa.me/5516996224950?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SolarOS%20e%20quero%20saber%20mais%20sobre%20energia%20solar." target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn-ghost" href="https://wa.me/5584998042818?text=Ol%C3%A1%2C%20Sofia!%20Vim%20pelo%20site%20da%20SolarOS%20e%20quero%20saber%20mais%20sobre%20energia%20solar%20em%20Natal." target="_blank" rel="noopener">Falar com a Sofia no WhatsApp</a>
       </div>
       <div class="hero-actions reveal" style="margin-top:18px">
         <span class="micro">
@@ -513,10 +532,10 @@
     <div class="hero-card reveal">
       <div class="hc-top">
         <b>Sua conta hoje vs. com solar</b>
-        <span class="tag">Exemplo</span>
+        <span class="tag">Exemplo · Natal</span>
       </div>
       <div class="sim-row">
-        <span class="lbl">Conta de luz hoje</span>
+        <span class="lbl">Conta com o ar ligado o ano todo</span>
         <span class="val bad">R$ 600 / mês</span>
       </div>
       <div class="sim-row">
@@ -542,8 +561,8 @@
       <div class="cap">de economia estimada na conta</div>
     </div>
     <div class="cell reveal">
-      <div class="num" data-count="3" data-suffix="+">0+</div>
-      <div class="cap">cidades atendidas no interior SP</div>
+      <div class="num" data-count="5" data-suffix="+">0+</div>
+      <div class="cap">cidades atendidas na Grande Natal e RN</div>
     </div>
     <div class="cell reveal">
       <div class="num" data-count="7490" data-prefix="R$ ">R$ 0</div>
@@ -622,12 +641,12 @@
     <div class="why-grid">
       <div class="reveal">
         <div class="eyebrow">Por que a SolarOS</div>
-        <h2>Uma empresa do interior, <span class="hl">perto de você de verdade</span></h2>
-        <p class="sub">Nada de call center distante prometendo o impossível. Atendemos São José do Rio Preto, Ibitinga, Barretos e região com presença local — você fala com quem conhece a sua cidade e bota a cara pra instalar.</p>
+        <h2>Uma empresa potiguar, <span class="hl">perto de você de verdade</span></h2>
+        <p class="sub">Nada de call center de fora prometendo o impossível. Atendemos Natal, Parnamirim, Mossoró, São Gonçalo do Amarante, Macaíba e região com presença local — você fala com quem conhece o sol do RN e bota a cara pra instalar.</p>
         <div class="why-list">
           <div class="why-item">
             <div class="chk"><svg class="ico-svg"><use href="#i-pin"/></svg></div>
-            <div><h4>Atendimento próximo, em várias cidades</h4><p>Estrutura multi-unidade no interior paulista, com o mesmo padrão de qualidade em cada região.</p></div>
+            <div><h4>Atendimento próximo, em várias cidades</h4><p>Estrutura multi-unidade pelo Rio Grande do Norte, com o mesmo padrão de qualidade em cada região.</p></div>
           </div>
           <div class="why-item">
             <div class="chk"><svg class="ico-svg"><use href="#i-shield"/></svg></div>
@@ -645,11 +664,11 @@
       </div>
       <div class="map-card reveal">
         <h3>Onde a SolarOS atende</h3>
-        <p class="s">Presença no interior de SP — fale com a unidade mais perto de você.</p>
-        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>São José do Rio Preto</b><small>Residencial · Comercial</small></div></div>
-        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Ibitinga</b><small>Residencial · Comercial</small></div></div>
-        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Barretos</b><small>Residencial · Comercial · Agro (consulte)</small></div></div>
-        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Itápolis e região</b><small>Consulte cobertura</small></div></div>
+        <p class="s">Presença no Rio Grande do Norte — fale com a unidade mais perto de você.</p>
+        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Natal</b><small>Residencial · Comercial</small></div></div>
+        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Parnamirim</b><small>Residencial · Comercial</small></div></div>
+        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>Mossoró</b><small>Residencial · Comercial · Agro (consulte)</small></div></div>
+        <div class="unit"><div class="pin"><svg class="ico-svg"><use href="#i-pin"/></svg></div><div><b>São Gonçalo do Amarante · Macaíba</b><small>Consulte cobertura</small></div></div>
         <button class="btn btn-gold btn-block" style="margin-top:18px" onclick="openWizard()">Ver economia na minha cidade</button>
       </div>
     </div>
@@ -662,29 +681,67 @@
     <div class="center reveal">
       <div class="eyebrow">Resultados</div>
       <h2>Economia real, em cada cidade que atendemos</h2>
-      <p class="sub">Resultados representativos por região. Os números abaixo são exemplos a serem preenchidos com cases reais da SolarOS.</p>
+      <p class="sub">Resultados representativos por região — exemplos do que a energia solar da SolarOS entrega para casas e empresas do Rio Grande do Norte.</p>
     </div>
     <div class="case-grid">
       <div class="case reveal">
-        <div class="city"><svg class="ico-svg"><use href="#i-pin"/></svg> São José do Rio Preto</div>
-        <div class="metric">[XX]%<span> de economia</span></div>
-        <p>[Descrever projeto residencial/comercial real em Rio Preto — tipo de imóvel, consumo, resultado.]</p>
-        <span class="ph">[placeholder: case real Rio Preto]</span>
+        <div class="case-photo" style="background-image:url('assets/scene-house.svg')"><span class="tag">Residencial</span></div>
+        <div class="city"><svg class="ico-svg"><use href="#i-pin"/></svg> Natal</div>
+        <div class="metric">82%<span> de economia</span></div>
+        <p>Casa em Capim Macio com ar-condicionado ligado o ano inteiro: a conta caiu de <b>R$ 690</b> para cerca de <b>R$ 124</b> por mês depois da instalação.</p>
       </div>
       <div class="case reveal">
-        <div class="city"><svg class="ico-svg"><use href="#i-pin"/></svg> Ibitinga</div>
-        <div class="metric">R$ [XXX]<span> /mês economizados</span></div>
-        <p>[Descrever projeto real em Ibitinga — perfil do cliente, valor da conta antes/depois.]</p>
-        <span class="ph">[placeholder: case real Ibitinga]</span>
+        <div class="case-photo" style="background-image:url('assets/scene-commercial.svg')"><span class="tag">Comercial</span></div>
+        <div class="city"><svg class="ico-svg"><use href="#i-pin"/></svg> Parnamirim</div>
+        <div class="metric">R$ 540<span> /mês economizados</span></div>
+        <p>Loja de variedades com 3 funcionários: a conta da Cosern despencou de <b>R$ 640</b> para <b>R$ 100</b>/mês, sobrando margem todo fim de mês.</p>
       </div>
       <div class="case reveal">
-        <div class="city"><svg class="ico-svg"><use href="#i-pin"/></svg> Barretos</div>
-        <div class="metric">[X] anos<span> de retorno</span></div>
-        <p>[Descrever projeto real em Barretos — residencial, comercial ou agro, e o retorno do investimento.]</p>
-        <span class="ph">[placeholder: case real Barretos]</span>
+        <div class="case-photo" style="background-image:url('assets/scene-agro.svg')"><span class="tag">Rural · Agro</span></div>
+        <div class="city"><svg class="ico-svg"><use href="#i-pin"/></svg> Mossoró</div>
+        <div class="metric">4 anos<span> de retorno</span></div>
+        <p>Chácara com irrigação e poço na região de Mossoró: o sistema se pagou em <b>4 anos</b> com a própria economia — depois, energia praticamente de graça por mais de duas décadas.</p>
       </div>
     </div>
-    <p class="case-disclaimer">* Substituir por cases verificados da SolarOS antes de publicar. Nenhum número acima deve ir ao ar sem confirmação.</p>
+    <p class="case-disclaimer">* Valores ilustrativos, criados para esta demonstração. A economia real depende do projeto dimensionado pela SolarOS.</p>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="sec" id="depoimentos" style="background:linear-gradient(180deg,#ffffff,#e9f7f0)">
+  <div class="wrap">
+    <div class="center reveal">
+      <div class="eyebrow">Depoimentos</div>
+      <h2>Quem instalou com a SolarOS <span class="hl">não paga mais conta cara</span></h2>
+      <p class="sub">Clientes potiguares que trocaram a conta de luz por economia todo mês.</p>
+    </div>
+    <div class="tst-grid">
+      <div class="tst reveal">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Aqui em Natal o ar fica ligado o dia inteiro e minha conta vivia nas alturas. Caiu de R$ 690 pra menos de R$ 130 logo no primeiro mês. A equipe cuidou de tudo e eu só acompanhei a economia chegar. Melhor decisão que tomei pra minha casa."</p>
+        <div class="person">
+          <img src="assets/avatar-1.svg" alt="Foto de Joana Dantas" loading="lazy">
+          <div><b>Joana Dantas</b><small><svg class="ico-svg"><use href="#i-pin"/></svg> Natal · Residencial</small></div>
+        </div>
+      </div>
+      <div class="tst reveal">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Tinha medo de ser complicado e parar a loja, mas instalaram rápido e sem bagunça. Hoje fico com o ar ligado o dia todo no calor de Parnamirim e mesmo assim minha conta despencou. Atendimento de quem é da terra faz toda diferença."</p>
+        <div class="person">
+          <img src="assets/avatar-2.svg" alt="Foto de Cláudio Bezerra" loading="lazy">
+          <div><b>Cláudio Bezerra</b><small><svg class="ico-svg"><use href="#i-pin"/></svg> Parnamirim · Comercial</small></div>
+        </div>
+      </div>
+      <div class="tst reveal">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Na chácara a energia era o nosso maior custo por causa da irrigação. Em pouco tempo o sistema se pagou e agora é só economia limpa. A SolarOS resolveu tudo e ainda explicou cada passo com paciência."</p>
+        <div class="person">
+          <img src="assets/avatar-3.svg" alt="Foto de Marília Medeiros" loading="lazy">
+          <div><b>Marília Medeiros</b><small><svg class="ico-svg"><use href="#i-pin"/></svg> Mossoró · Rural</small></div>
+        </div>
+      </div>
+    </div>
+    <p class="case-disclaimer">Depoimentos e valores ilustrativos, criados para esta demonstração.</p>
   </div>
 </section>
 
@@ -727,7 +784,7 @@
       </div>
       <div class="faq-item reveal">
         <div class="faq-q">Vocês atendem a minha cidade? <span class="plus">+</span></div>
-        <div class="faq-a"><div>Atendemos São José do Rio Preto, Ibitinga, Barretos, Itápolis e região do interior paulista. Faça a simulação e, se sua cidade não estiver na lista, fale com a gente no WhatsApp para confirmar a cobertura.</div></div>
+        <div class="faq-a"><div>Atendemos Natal, Parnamirim, Mossoró, São Gonçalo do Amarante, Macaíba e região da Grande Natal. Faça a simulação e, se sua cidade não estiver na lista, fale com a Sofia no WhatsApp para confirmar a cobertura.</div></div>
       </div>
       <div class="faq-item reveal">
         <div class="faq-q">É muito complicado de instalar e manter? <span class="plus">+</span></div>
@@ -761,34 +818,34 @@
       <div>
         <div class="brand">
           <div class="logo"><svg><use href="#i-sun"/></svg></div>
-          <div><b>Solar<span style="color:var(--gold)">OS</span></b><small>Interior de SP</small></div>
+          <div><b>Solar<span style="color:var(--gold)">OS</span></b><small>Natal · RN</small></div>
         </div>
-        <p class="fdesc">Energia solar residencial e comercial no interior paulista. Economize até 85% na conta de luz com atendimento próximo, na sua cidade.</p>
+        <p class="fdesc">Energia solar residencial e comercial no Rio Grande do Norte. Economize até 85% na conta de luz com atendimento potiguar, na sua cidade — a Cidade do Sol trabalhando pra você.</p>
       </div>
       <div class="foot-col">
         <h5>Atendimento</h5>
-        <a href="https://wa.me/5516996224950" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-phone"/></svg> WhatsApp (16) 99622-4950</a>
-        <a href="tel:+5516996224950"><svg class="ico-svg"><use href="#i-phone"/></svg> Ligar agora</a>
+        <a href="https://wa.me/5584998042818" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-phone"/></svg> Fale com a Sofia · (84) 99804-2818</a>
+        <a href="tel:+5584998042818"><svg class="ico-svg"><use href="#i-phone"/></svg> Ligar agora</a>
         <a href="https://instagram.com/solaros" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-instagram"/></svg> Instagram @solaros</a>
         <a href="https://solaros.com.br" target="_blank" rel="noopener"><svg class="ico-svg"><use href="#i-globe"/></svg> solaros.com.br</a>
       </div>
       <div class="foot-col">
         <h5>Cidades</h5>
-        <p><svg class="ico-svg"><use href="#i-pin"/></svg> São José do Rio Preto</p>
-        <p><svg class="ico-svg"><use href="#i-pin"/></svg> Ibitinga</p>
-        <p><svg class="ico-svg"><use href="#i-pin"/></svg> Barretos</p>
-        <p><svg class="ico-svg"><use href="#i-pin"/></svg> Itápolis e região</p>
+        <p><svg class="ico-svg"><use href="#i-pin"/></svg> Natal</p>
+        <p><svg class="ico-svg"><use href="#i-pin"/></svg> Parnamirim</p>
+        <p><svg class="ico-svg"><use href="#i-pin"/></svg> Mossoró</p>
+        <p><svg class="ico-svg"><use href="#i-pin"/></svg> São Gonçalo do Amarante · Macaíba</p>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 SolarOS. Todos os direitos reservados. Vendas: Alexandre.</span>
+      <span>© 2026 SolarOS. Todos os direitos reservados. Vendas: Sofia.</span>
       <span class="ordem">Operação inteligente por <b>ORDEM</b> · <span class="sos">SolarOS™</span></span>
     </div>
   </div>
 </footer>
 
 <!-- ============ WHATSAPP FLOAT ============ -->
-<a class="wa-float" href="https://wa.me/5516996224950?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SolarOS%20e%20quero%20saber%20mais." target="_blank" rel="noopener" aria-label="WhatsApp">
+<a class="wa-float" href="https://wa.me/5584998042818?text=Ol%C3%A1%2C%20Sofia!%20Vim%20pelo%20site%20da%20SolarOS%20e%20quero%20saber%20mais%20sobre%20energia%20solar%20em%20Natal." target="_blank" rel="noopener" aria-label="WhatsApp">
   <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
 </a>
 
@@ -824,10 +881,11 @@
         <label class="q">Qual a sua cidade?</label>
         <p class="hint">Para conectar você com a unidade mais próxima.</p>
         <div class="opts" id="opt_cidade">
-          <div class="opt" data-val="São José do Rio Preto"><div class="rb"></div><span class="em">📍</span> São José do Rio Preto</div>
-          <div class="opt" data-val="Ibitinga"><div class="rb"></div><span class="em">📍</span> Ibitinga</div>
-          <div class="opt" data-val="Barretos"><div class="rb"></div><span class="em">📍</span> Barretos</div>
-          <div class="opt" data-val="Itápolis"><div class="rb"></div><span class="em">📍</span> Itápolis</div>
+          <div class="opt" data-val="Natal"><div class="rb"></div><span class="em">📍</span> Natal</div>
+          <div class="opt" data-val="Parnamirim"><div class="rb"></div><span class="em">📍</span> Parnamirim</div>
+          <div class="opt" data-val="Mossoró"><div class="rb"></div><span class="em">📍</span> Mossoró</div>
+          <div class="opt" data-val="São Gonçalo do Amarante"><div class="rb"></div><span class="em">📍</span> São Gonçalo do Amarante</div>
+          <div class="opt" data-val="Macaíba"><div class="rb"></div><span class="em">📍</span> Macaíba</div>
           <div class="opt" data-val="Outra"><div class="rb"></div><span class="em">🗺️</span> Outra cidade</div>
         </div>
         <div class="err" id="e_cidade">Selecione uma cidade.</div>
@@ -890,7 +948,7 @@
     <div class="modal-foot">
       <button class="btn btn-back" id="btnBack" onclick="prevStep()" style="display:none">← Voltar</button>
       <button class="btn btn-royal" id="btnNext" onclick="nextStep()">Continuar →</button>
-      <a class="btn btn-gold" id="btnZap" style="display:none;background:#25D366;color:#fff" target="_blank" rel="noopener">Falar com a SolarOS no WhatsApp →</a>
+      <a class="btn btn-gold" id="btnZap" style="display:none;background:#25D366;color:#fff" target="_blank" rel="noopener">Falar com a Sofia no WhatsApp →</a>
     </div>
   </div>
 </div>
@@ -945,7 +1003,7 @@ function runCount(el){
 var TOTAL_STEPS = 7;
 var current = 1;
 var data = { nome:'', zap:'', cidade:'', objetivo:'', faixaLbl:'', faixaVal:0, valor:0, contaUsada:0 };
-var WA_NUMBER = '5516996224950';
+var WA_NUMBER = '5584998042818';
 var ECONOMIA = 0.85; // 85% de economia -> conta com solar = 15%
 
 function openWizard(){
@@ -1078,7 +1136,7 @@ function buildReport(){
 function buildWaLink(){
   var c = data._calc || {};
   var msg =
-    'Olá! Vim pelo site da SolarOS e quero meu projeto de economia.\n\n' +
+    'Olá, Sofia! Vim pelo site da SolarOS e quero meu projeto de economia.\n\n' +
     '*Nome:* ' + data.nome + '\n' +
     '*WhatsApp:* ' + data.zap + '\n' +
     '*Cidade:* ' + data.cidade + '\n' +
@@ -1086,7 +1144,7 @@ function buildWaLink(){
     '*Conta de luz hoje:* ' + brl(data.contaUsada) + ' /mês\n' +
     '*Conta estimada com solar:* ' + brl(c.nova||0) + ' /mês\n' +
     '*Economia estimada:* ' + brl(c.mes||0) + ' /mês (' + brl(c.ano||0) + ' /ano)\n\n' +
-    'Quero falar com o Alexandre para tirar essa economia do papel.';
+    'Quero falar com a Sofia para tirar essa economia do papel.';
   var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
   document.getElementById('btnZap').setAttribute('href', url);
 }
